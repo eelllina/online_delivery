@@ -1,0 +1,409 @@
+[
+    {
+        "model": "goods.products",
+         "pk": 6,
+          "fields": {
+            "name": "Цезарь с курицей", 
+            "slug": "cezar-s-kuricej", 
+            "description": "Классический цезарь: свежая зелень, нежное куриное филе, помидоры черри, хрустящие сухарики и заправка.",
+            "image": "goods_images/cezar.jpg", 
+            "price": "255.00", 
+            "discout": "10.00", 
+            "quantity": 10, 
+            "category": 8
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 7, "fields": {
+            "name": "Удон с курицей", 
+            "slug": "udon-s-kuricej", 
+            "description": "Удон с курицей, соус для лапши, соус соевый, масло растительное, соль, перец молотый, кунжут.", 
+            "image": "goods_images/udon.jpg", 
+            "price": "310.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 8
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 8, "fields": {
+            "name": "Томаты черри, сливовидные",
+            "slug": "tomaty-cherri-slivovidnye", 
+            "description": "Томаты черри, сливовидные - 250г.", 
+            "image": "goods_images/pomidor.jpg", 
+            "price": "119.00", 
+            "discout": "10.00", 
+            "quantity": 10, 
+            "category": 9
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 9, "fields": {
+            "name": "Борщ с капустой и мясом", 
+            "slug": "borsh-s-kapustoj-i-myasom", 
+            "description": "Борщ на мясном бульоне со свёклой, капустой, картофелем, говядиной, луком и морковью. Для насыщенного вкуса добавили томатную пасту и пряности.", 
+            "image": "goods_images/bsup.jpg", 
+            "price": "149.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 8
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 10, "fields": {
+            "name": "Тыквенный суп с индейкой", 
+            "slug": "tykvennyj-sup-s-indejkoj", 
+            "description": "Тыквенный суп с филе индейки. Густая кремовая консистенция и нежный вкус.", 
+            "image": "goods_images/tsup.jpg", 
+            "price": "200.00", 
+            "discout": "15.00", 
+            "quantity": 10, 
+            "category": 8
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 11, "fields": {
+            "name": "Молоко пастеризованное", 
+            "slug": "moloko-pasterizovannoe", 
+            "description": "Пастеризованное молоко в бутылке, 930 мл.", 
+            "image": "goods_images/milk.png", 
+            "price": "95.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 10
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 12, "fields": {
+            "name": "Бананы", 
+            "slug": "banany", 
+            "description": "Бананы - 4 шт.", 
+            "image": "goods_images/banan.jpg", 
+            "price": "159.00", 
+            "discout": "0.00", 
+            "quantity": 10,
+            "category": 9
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 13, "fields": {
+            "name": "Маасдам, полутвёрдый, 45%", 
+            "slug": "maasdam-polutvyordyj-45", 
+            "description": "Из коровьего молока, с крупными дырочками, 45 г.", 
+            "image": "goods_images/cheese.jpg", 
+            "price": "230.00", 
+            "discout": "0.00", 
+            "quantity": 12, 
+            "category": 10
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 14, "fields": {
+            "name": "Пшеничный хлеб, тостовый",
+            "slug": "pshenichnyj-hleb-tostovyj", 
+            "description": "Подходит для тостов и сэндвичей, нарезка, 250 г.", 
+            "image": "goods_images/bread.jpg", 
+            "price": "65.00", 
+            "discout": "10.00", 
+            "quantity": 10, 
+            "category": 11
+            
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 15, "fields": {
+            "name": "Артезианская вода, без газа", 
+            "slug": "artezianskaya-voda-bez-gaza", 
+            "description": "Артезианская вода, без газа - 1,5 л.", 
+            "image": "goods_images/water.jpg", 
+            "price": "75.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 13
+            
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 16, "fields": {
+            "name": "Клюквенный морс", 
+            "slug": "klyukvennyj-mors", 
+            "description": "Клюквенный морс - 1 л.", 
+            "image": "goods_images/mors.png", 
+            "price": "195.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 13
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 17, "fields": {
+            "name": "Огурцы среднеплодные", 
+            "slug": "ogurcy-sredneplodnye", 
+            "description": "Огурцы среднеплодные - 450 г.", 
+            "image": "goods_images/ogurec.jpg", 
+            "price": "169.00", 
+            "discout": "10.00", 
+            "quantity": 10, 
+            "category": 9
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 18, "fields": {
+            "name": "Бефстроганов с картофельным пюре", 
+            "slug": "befstroganov-s-kartofelnym-pyure", 
+            "description": "Бефстроганов по классическому рецепту: ломтики нежной говядины, лук и шампиньоны в сливочном соусе. На гарнир — картофельное пюре.", 
+            "image": "goods_images/befs.jpg", 
+            "price": "275.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 8
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 19, "fields": {
+            "name": "Биточки из индейки с сыром, охлаждённые", 
+            "slug": "bitochki-iz-indejki-s-syrom-ohlazhdyonnye", 
+            "description": "Биточки из мяса индейки с ароматными специями и сливочным сыром. Приготовлены из рубленого мяса, поэтому получаются сочными. В упаковке — 6 штук, которые можно пожарить на сковороде, потушить или запечь в духовке.", 
+            "image": "goods_images/bitok.jpg", 
+            "price": "299.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 12
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 20, "fields": {
+            "name": "Coca Cola", 
+            "slug": "coca-cola", 
+            "description": "Классическая кола, 1 л.", 
+            "image": "goods_images/cola.jpg", 
+            "price": "199.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 13
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 21, "fields": {
+            "name": "Миндальное печенье", 
+            "slug": "mindalnoe-pechene", 
+            "description": "Мягкое миндальное печенье с хрустящей корочкой, 150 г.", 
+            "image": "goods_images/cookies.jpg", 
+            "price": "195.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 11
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 22, "fields": {
+            "name": "Куриное яйцо, С1", 
+            "slug": "kurinoe-yajco-s1", 
+            "description": "Куриное яйцо, С1 - 10 шт.", 
+            "image": "goods_images/eggs.jpg", 
+            "price": "130.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 10
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 23, "fields": {
+            "name": "Говяжий фарш, охлажденный", 
+            "slug": "govyazhij-farsh-ohlazhdennyj", 
+            "description": "Фарш из отборной говядины без красителей и усилителей вкуса, 400 г.", 
+            "image": "goods_images/farsh.jpg", 
+            "price": "319.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 12
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 24, "fields": {
+            "name": "Филе бедра цыплёнка-бройлера, охлаждённое", 
+            "slug": "file-bedra-cyplyonka-brojlera-ohlazhdyonnoe", 
+            "description": "Охлаждённое филе бедра цыплёнка, 750 г.", 
+            "image": "goods_images/file.jpg", 
+            "price": "385.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 12
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 25, "fields": {
+            "name": "Форель стейковая, замороженная", 
+            "slug": "forel-stejkovaya-zamorozhennaya", 
+            "description": "У стейков чистый состав — без искусственных красителей, консервантов и усилителей вкуса, 390 г.", 
+            "image": "goods_images/fish.jpg", 
+            "price": "709.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 12
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 26, "fields": {
+            "name": "Хлеб ржано-пшеничный бездрожжевой", 
+            "slug": "hleb-rzhano-pshenichnyj-bezdrozhzhevoj", 
+            "description": "Мука пшеничная хлебопекарная первого сорта, вода питьевая, сахар, солод ржаной сухой, мука ржаная хлебопекарная сеяная, соль пищевая, отруби пшеничные, кориандр, 300 г.", 
+            "image": "goods_images/hleb.jpg", 
+            "price": "95.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 11
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 27, "fields": {
+            "name": "Белый картофель, отборный", 
+            "slug": "belyj-kartofel-otbornyj", 
+            "description": "Отборный картофель белого цвета, 2 кг.", 
+            "image": "goods_images/kartofel.jpg", 
+            "price": "189.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 9
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 28, "fields": {
+            "name": "Варёно-копчёный сервелат", 
+            "slug": "kruassan-s-mindalyom", 
+            "description": "Варёно-копчёный сервелат из свинины, куриного филе и шпика с добавлением пряностей, 350 г", 
+            "image": "goods_images/krus.jpg", 
+            "price": "169.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 11
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 29, "fields": {
+            "name": "Квас нефильтрованный", 
+            "slug": "kvas-nefiltrovannyj", 
+            "description": "Нефильтрованный квас с хлебным ароматом и лёгкой кислинкой во вкусе, 1 л.", 
+            "image": "goods_images/kvas.jpg", 
+            "price": "129.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 13
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 30, "fields": {
+            "name": "Булочка с маком",
+            "slug": "bulochka-s-makom", 
+            "description": "Мягкая булочка из сдобного теста на сливочном масле, 110 г.", 
+            "image": "goods_images/mak.jpg", 
+            "price": "89.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 11
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 31, "fields": {
+            "name": "Манговый нектар", 
+            "slug": "mangovyj-nektar", 
+            "description": "Нектар на основе пюре манго, 1.6 л.", 
+            "image": "goods_images/mango.jpg", 
+            "price": "229.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 13
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 32, "fields": {
+            "name": "Сливочное масло, 82.5%", 
+            "slug": "slivochnoe-maslo-825", 
+            "description": "Без красителей, консервантов и ароматизаторов. Жирность — 82.5%, 180 г.", 
+            "image": "goods_images/maslo.jpg", 
+            "price": "279.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 10
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 33, "fields": {
+            "name": "Мясо мидий варёно-мороженое", 
+            "slug": "myaso-midij-varyono-morozhenoe", 
+            "description": "Мясо чилийских мидий покрыто небольшим слоем ледяной глазури — так сохраняется вкус и качество продукта. Морепродукт содержит много белка и полезных жирных кислот. Масса без глазури — 460 г.", 
+            "image": "goods_images/midii.jpg", 
+            "price": "389.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 12
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 34, "fields": {
+            "name": "Оладьи с клубничным вареньем", 
+            "slug": "oladi-s-klubnichnym-varenem", 
+            "description": "Пышные и ароматные оладушки с клубничным вареньем, 135 г.", 
+            "image": "goods_images/olad.jpeg", 
+            "price": "179.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 8
+            
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 35, "fields": {
+            "name": "Красный перец", 
+            "slug": "krasnyj-perec", 
+            "description": "Хрустящий перец красного цвета, 500 г.", 
+            "image": "goods_images/perec.jpg", 
+            "price": "329.00", 
+            "discout": "10.00", 
+            "quantity": 10, 
+            "category": 9
+        }
+    }, 
+    {
+        "model": "goods.products", 
+        "pk": 36, "fields": {
+            "name": "Яблочный нектар", 
+            "slug": "yablochnyj-nektar", 
+            "description": "Нектар из яблочного сока, сахара, лимонной кислоты и воды, 1.95 л.", 
+            "image": "goods_images/sok.jpg", 
+            "price": "319.00", 
+            "discout": "0.00", 
+            "quantity": 10, 
+            "category": 13
+        }
+    }
+]

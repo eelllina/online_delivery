@@ -1,0 +1,78 @@
+body {
+  background-image: url("../images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+.red-btn {
+  background-color: #990000; /* фоновый цвет */
+  color: white;           /* цвет текста, по желанию */
+
+}
+.red-btn:hover{
+  background: grey;
+  color: white;  
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.custom-shadow {
+  box-shadow: 5px 5px 50px 1px #B22222;
+  max-width: 800px;
+}
+.custom-shadow1{
+  box-shadow: 5px 5px 50px 1px #B22222;
+  
+}
+.nav-link{
+  margin-right: 18px;
+}
+
+
+.badge.bg-warning.text-dark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.badge-banner {
+  top: 80%;
+  border-radius: 15px;
+  font-size: 0.7rem;
+}
+.form-control { 
+  width: 470px; /* Установите желаемую ширину */ 
+  height: 40px; /* Пример высоты */ 
+} 
+
+/* Изменяем цвет кнопки при наведении */
+.btn-outline-success { 
+  transition: background-color 0.3s, color 0.3s; /* Плавный переход */
+  border-color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: white; 
+}
+
+.bg-red{
+  background-color: #990000;
+  height:70px; 
+}
+.custom-shadow2{
+  max-width:1000px;
+}
+.custom-shadow4 {
+  max-width:2000px;
+}
+
+
+
+
