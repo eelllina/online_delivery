@@ -12,6 +12,9 @@ class CartTabAdmin(admin.TabularInline):
     
 
 
+
+
+
 @admin.register(Cart)
 class CartAdmin(admin.ModelAdmin):
     list_display = ["user_display", "product_display", "quantity", "created_timestamp",]
